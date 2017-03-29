@@ -1,0 +1,48 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+<head>
+	   <title>业务预约量录入</title>
+	   <link rel="stylesheet" href="/screen-master/Public/Admin/css/bootstrap.css">
+     <link rel="stylesheet" href="/screen-master/Public/Admin/css/main.css">
+	   <script src="/screen-master/Public/Home/js/jquery-1.10.1.min.js" type="text/javascript" charset="utf-8" ></script>
+     <link href="/screen-master/Public/datetimepicker/jquery-ui-1.9.2.custom.min.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" charset="utf-8" src="/screen-master/Public/datetimepicker/jquery-ui-1.9.2.custom.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="/screen-master/Public/datetimepicker/datepicker-zh_cn.js"></script>
+    <link rel="stylesheet" media="all" type="text/css" href="/screen-master/Public/datetimepicker/time/jquery-ui-timepicker-addon.min.css" />
+    <script type="text/javascript" src="/screen-master/Public/datetimepicker/time/jquery-ui-timepicker-addon.min.js"></script>
+    <script type="text/javascript" src="/screen-master/Public/datetimepicker/time/i18n/jquery-ui-timepicker-addon-i18n.min.js"></script>
+</head>
+<body id="skin-blur-blue">
+   <div class='wrap'>
+      <h3 class='wtitle'>预约数据录入</h3>
+    	<form role="form" method="post" class='form-horizontal'>
+            <div class="form-group">
+              <label for="name">类型</label>
+              <select name='type'>
+                     <option value=''>--请选择--</option>
+                     <option value='计划量'>计划量</option>
+                     <option value='申请量'>申请量</option>
+                     <option value='预约量'>预约量</option>
+                     <option value='成功预约量'>成功预约量</option>
+               </select>
+           </div>
+      	   <div class="form-group">
+      	      <label for="name" class='control-label'>数量</label>
+      	      <input type="text" name='data' placeholder="请输入数据量"/>
+      	   </div>
+          <div class="form-group">
+              <label for="name" class='control-label'>日期</label>
+              <input type="text" name='date' id='st' placeholder="请输入具体的日期"/>
+           </div>
+           <div id="wsubmit">
+      	   <button type="submit" class="btn btn-success" id='submit'>提交</button> <button type="submit" class="btn btn-info">重置</button>
+           </div>
+    	</form>
+</div>
+</body>
+</html>
+
+<script type="text/javascript" charset="utf-8">
+  $.timepicker.setDefaults($.timepicker.regional['zh-CN']);
+  $("#st").datepicker({ dateFormat: "yy-mm-dd" });
+</script>

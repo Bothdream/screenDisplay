@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Province[
+    <!ELEMENT Province (Area+)>
+    <!ELEMENT Area (Tag)>
+    <!ELEMENT Tag (#PCDATA)>
+    <!ATTLIST Area id CDATA #IMPLIED>
+    <!ATTLIST Area name CDATA #IMPLIED>
+ ]
+>
+ <Province>
+      <Area id="1" name="万州区">
+          <Tag>wangzhou</Tag>
+      </Area>
+      <Area id="2" name="涪陵区" >
+      	   <Tag>fulin</Tag>
+      </Area>
+      <Area id="3" name="渝中区" >
+      	   <Tag>yuzhong</Tag>
+      </Area>
+      <Area id="4" name="大渡口区">
+      	   <Tag>dadukou</Tag>
+      </Area>
+      <Area id="5" name="江北区" >
+      	   <Tag>jiangbei</Tag>
+      </Area>
+      <Area id="6" name="沙坪坝区">
+      	   <Tag>shapinba</Tag>
+      </Area>
+      <Area id="7" name="九龙坡区">
+      	   <Tag>jiulongpo</Tag>
+      </Area>
+      <Area id="8" name="南岸区" >
+      	   <Tag>nanan</Tag>
+      </Area>
+      <Area id="9" name="北碚区" >
+      	   <Tag>beibei</Tag>
+      </Area>
+      <Area id="10" name="万盛区" >
+      	   <Tag>wangsheng</Tag>
+      </Area>
+      <Area id="11" name="双桥区" >
+      	   <Tag>shuangqiao</Tag>
+      </Area>
+      <Area id="12" name="渝北区" >
+      	   <Tag>yubei</Tag>
+      </Area>
+      <Area id="13" name="巴南区" >
+      	   <Tag>banan</Tag>
+      </Area>
+      <Area id="14" name="黔江区" >
+               <Tag>qinjiang</Tag>
+      </Area>
+      <Area id="15" name="长寿区" >
+      	   <Tag>changshou</Tag>
+      </Area>
+      <Area id="16" name="江津区" >
+      	   <Tag>jiangjin</Tag>
+      </Area>
+      <Area id="17" name="合川区" >
+      	   <Tag>hechuan</Tag>
+      </Area>
+      <Area id="18" name="永川区" >
+      	   <Tag>yongchuan</Tag>
+      </Area>
+      <Area id="19" name="南川区" >
+      	   <Tag>nanchuan</Tag>
+      </Area>
+      <Area id="20" name="綦江区" >
+      	   <Tag>qijiang</Tag>
+      </Area>
+      <Area id="21" name="潼南区" >
+      	   <Tag>tongnan</Tag>
+      </Area>
+      <Area id="22" name="铜梁区" >
+      	   <Tag>tongliang</Tag>
+      </Area>
+      <Area id="23" name="大足区" >
+      	   <Tag>dazu</Tag>
+      </Area>
+      <Area id="24" name="荣昌区" >
+      	   <Tag>rongchang</Tag>
+      </Area>
+      <Area id="25" name="璧山县" >
+      	   <Tag>bishan</Tag>
+      </Area>
+      <Area id="26" name="梁平县" >
+      	   <Tag>liangping</Tag>
+      </Area>
+      <Area id="27" name="城口县" >
+      	   <Tag>chengkou</Tag>
+      </Area>
+      <Area id="28" name="丰都县" >
+      	   <Tag>fengdou</Tag>
+      </Area>
+      <Area id="29" name="垫江县" >
+      	   <Tag>dianjiang</Tag>
+      </Area>
+      <Area id="30" name="武隆县" >
+      	   <Tag>wulong</Tag>
+      </Area>
+      <Area id="31" name="忠县" >
+      	   <Tag>zhongxian</Tag>
+      </Area>
+      <Area id="32" name="开县" >
+      	   <Tag>kaizhou</Tag>
+      </Area>
+      <Area id="33" name="云阳县" >
+      	   <Tag>yunyang</Tag>
+      </Area>
+      <Area id="34" name="奉节县" >
+      	   <Tag>fengjie</Tag>
+      </Area>
+      <Area id="35" name="巫山县">
+      	   <Tag>wushan</Tag>
+      </Area>
+      <Area id="36" name="巫溪县" >
+      	   <Tag>wuxi</Tag>
+      </Area>
+      <Area id="37" name="石柱土家族自治县" >
+      	   <Tag>shizhu</Tag>
+      </Area>
+      <Area id="38" name="秀山土家族苗族自治县" >
+      	   <Tag>xiushan</Tag>
+      </Area>
+      <Area id="39" name="酉阳土家族苗族自治县" >
+      	   <Tag>qiuyang</Tag>
+      </Area>
+      <Area id="40" name="彭水苗族土家族自治县" >
+           <Tag>pengshiu</Tag>
+      </Area>
+  </Province>
